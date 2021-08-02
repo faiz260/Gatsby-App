@@ -1,0 +1,13 @@
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about_head {
+  margin-top: 5rem;
+  font-size: 5rem;
+  width: 50rem;
+}
+.about_head > span {
+  color: blueviolet;
+}

@@ -1,0 +1,22 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main > h1 {
+  margin-top: 5rem;
+  font-size: 5rem;
+  width: 50rem;
+}
+.main > h1 > span {
+  color: blueviolet;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}

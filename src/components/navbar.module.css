@@ -1,0 +1,11 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navbar > a {
+  color: blueviolet;
+  text-decoration: none;
+  margin: 1rem 5rem;
+  font-size: 0.90rem;
+}

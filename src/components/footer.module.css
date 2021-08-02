@@ -1,0 +1,21 @@
+.footer {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blueviolet;
+  color: white;
+  font-size: 0.8rem;
+  position: absolute;
+  width: 99.5%;
+  bottom: 0;
+}
+.footer > a {
+  color: white;
+  font-size: 0.8rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+.footer > a:hover{
+    text-decoration: underline;
+}

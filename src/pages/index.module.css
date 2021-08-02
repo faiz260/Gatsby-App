@@ -1,0 +1,13 @@
+.index{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.index_head {
+  margin-top: 5rem;
+  font-size: 8rem;
+  width: 50rem;
+}
+.index_head > span {
+  color: blueviolet;
+}
