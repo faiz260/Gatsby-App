@@ -61,10 +61,10 @@ exports.createPages = async function ({ actions }) {
 //   }
 // }
 
-// exports.onCreatePage = async ({ page, actions }) => {
-//   const { createPage } = actions
-//   if (page.path.match(/^\/products/)) {
-//     page.matchPath = "/products/*"
-//     createPage(page)
-//   }
-// }
+exports.onCreatePage = async ({ page, actions }) => {
+  const { createPage } = actions
+  if (page.path.match(/^\/products/)) {
+    page.matchPath = "/products/*"
+    createPage(page)
+  }
+}
